@@ -1,4 +1,4 @@
-15950650804671467
+15950651080072467
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -66659,7 +66659,7 @@ barreljack
 
 0
 2
-0
+2
 temperature board
 dualDSub9Connector
 9-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.84mm, pin-PCB-offset 7.699999999999999mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 9.12mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
@@ -66672,7 +66672,7 @@ ethernet cable jack
 
 
 0
-8
+6
 6
 temperature board
 JSTHeader
