@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "temperature board-cache")(type Legacy)(uri "${KIPRJMOD}/temperature board-cache.lib")(options "")(descr ""))
+  (lib (name "temperature board")(type Legacy)(uri "${KIPRJMOD}/temperature board.lib")(options "")(descr ""))
+  (lib (name temperature-board-rescue)(type Legacy)(uri "${KIPRJMOD}/temperature board-rescue.lib")(options "")(descr ""))
+)
