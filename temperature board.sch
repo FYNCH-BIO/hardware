@@ -1071,48 +1071,4 @@ Text Label 4500 2300 0    50   ~ 0
 eVOLVER_ADC_BOARD
 Text Label 8050 1150 0    50   ~ 0
 RJ11_Board
-$Comp
-L temperature~board:screw S2
-U 1 1 5CF71430
-P 1850 2250
-F 0 "S2" H 1928 2196 50  0000 L CNN
-F 1 "screw" H 1928 2105 50  0000 L CNN
-F 2 "temperature board:MountingHole" H 1850 2250 50  0001 C CNN
-F 3 "" H 1850 2250 50  0001 C CNN
-	1    1850 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L temperature~board:screw S4
-U 1 1 5CF726A8
-P 2250 2250
-F 0 "S4" H 2328 2196 50  0000 L CNN
-F 1 "screw" H 2328 2105 50  0000 L CNN
-F 2 "temperature board:MountingHole" H 2250 2250 50  0001 C CNN
-F 3 "" H 2250 2250 50  0001 C CNN
-	1    2250 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L temperature~board:screw S1
-U 1 1 5CF72FCF
-P 1800 2500
-F 0 "S1" H 1878 2446 50  0000 L CNN
-F 1 "screw" H 1878 2355 50  0000 L CNN
-F 2 "temperature board:MountingHole" H 1800 2500 50  0001 C CNN
-F 3 "" H 1800 2500 50  0001 C CNN
-	1    1800 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L temperature~board:screw S3
-U 1 1 5CF72FD5
-P 2200 2500
-F 0 "S3" H 2278 2446 50  0000 L CNN
-F 1 "screw" H 2278 2355 50  0000 L CNN
-F 2 "temperature board:MountingHole" H 2200 2500 50  0001 C CNN
-F 3 "" H 2200 2500 50  0001 C CNN
-	1    2200 2500
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
