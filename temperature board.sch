@@ -193,17 +193,6 @@ $EndComp
 Wire Wire Line
 	5350 2850 5150 2850
 $Comp
-L Connector:Barrel_Jack J1
-U 1 1 5CE47028
-P 4050 1650
-F 0 "J1" H 4107 1975 50  0000 C CNN
-F 1 "Barrel_Jack" H 4107 1884 50  0000 C CNN
-F 2 "temperature board:barreljack" H 4100 1610 50  0001 C CNN
-F 3 "~" H 4100 1610 50  0001 C CNN
-	1    4050 1650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x04 J11
 U 1 1 5CE47A79
 P 5400 1800
@@ -602,32 +591,6 @@ arduA2
 Text Label 6750 1500 0    50   ~ 0
 arduA3
 NoConn ~ 6750 1300
-$Comp
-L power:+5V #PWR02
-U 1 1 5CF05811
-P 4450 1550
-F 0 "#PWR02" H 4450 1400 50  0001 C CNN
-F 1 "+5V" H 4465 1723 50  0000 C CNN
-F 2 "" H 4450 1550 50  0001 C CNN
-F 3 "" H 4450 1550 50  0001 C CNN
-	1    4450 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR03
-U 1 1 5CF05C4E
-P 4450 1750
-F 0 "#PWR03" H 4450 1500 50  0001 C CNN
-F 1 "GND" H 4455 1577 50  0000 C CNN
-F 2 "" H 4450 1750 50  0001 C CNN
-F 3 "" H 4450 1750 50  0001 C CNN
-	1    4450 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 1750 4350 1750
-Wire Wire Line
-	4350 1550 4450 1550
 Text Label 6750 2100 0    50   ~ 0
 arduD11
 NoConn ~ 6250 1900
@@ -1071,4 +1034,41 @@ Text Label 4500 2300 0    50   ~ 0
 eVOLVER_ADC_BOARD
 Text Label 8050 1150 0    50   ~ 0
 RJ11_Board
+Wire Wire Line
+	4450 1750 4350 1750
+$Comp
+L power:GND #PWR03
+U 1 1 5CF05C4E
+P 4600 1550
+F 0 "#PWR03" H 4600 1300 50  0001 C CNN
+F 1 "GND" H 4605 1377 50  0000 C CNN
+F 2 "" H 4600 1550 50  0001 C CNN
+F 3 "" H 4600 1550 50  0001 C CNN
+	1    4600 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR02
+U 1 1 5CF05811
+P 4450 1750
+F 0 "#PWR02" H 4450 1600 50  0001 C CNN
+F 1 "+5V" H 4465 1923 50  0000 C CNN
+F 2 "" H 4450 1750 50  0001 C CNN
+F 3 "" H 4450 1750 50  0001 C CNN
+	1    4450 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1550 4600 1550
+$Comp
+L temperature~board:Connector_Barrel_Jack J1
+U 1 1 5D0E5937
+P 4000 1650
+F 0 "J1" H 4082 1975 50  0000 C CNN
+F 1 "Connector_Barrel_Jack" H 4082 1884 50  0000 C CNN
+F 2 "temperature board:barreljack" H 4050 1610 50  0001 C CNN
+F 3 "" H 4050 1610 50  0001 C CNN
+	1    4000 1650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
