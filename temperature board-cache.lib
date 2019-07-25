@@ -20,29 +20,6 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_01x04
-#
-DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 50 -250 1 1 10 f
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-X Pin_4 4 -200 -200 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Connector_Generic_Conn_02x09_Odd_Even
 #
 DEF Connector_Generic_Conn_02x09_Odd_Even J 0 40 Y N 1 F N
@@ -474,6 +451,33 @@ X ~ 6 475 -425 100 R 50 50 1 1 I
 X ~ 7 475 -325 100 R 50 50 1 1 I
 X ~ 8 475 -225 100 R 50 50 1 1 I
 X ~ 9 475 -125 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# temperature_board_EthernetJack
+#
+DEF temperature_board_EthernetJack J 0 40 Y N 1 F N
+F0 "J" 0 290 50 H V C CNN
+F1 "temperature_board_EthernetJack" 0 -390 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -295 0 -305 0 1 0 N
+S -50 205 0 195 0 1 0 N
+S 50 250 -50 -350 0 1 0 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

@@ -192,17 +192,6 @@ F 3 "~" H 6250 4300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5350 2850 5150 2850
-$Comp
-L Connector_Generic:Conn_01x04 J11
-U 1 1 5CE47A79
-P 5400 1800
-F 0 "J11" H 5480 1792 50  0000 L CNN
-F 1 "Conn_01x04" H 5480 1701 50  0000 L CNN
-F 2 "temperature board:ethernet cable jack" H 5400 1800 50  0001 C CNN
-F 3 "~" H 5400 1800 50  0001 C CNN
-	1    5400 1800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5600 3950 5150 3950
 $Comp
@@ -641,12 +630,10 @@ Wire Wire Line
 	8600 2250 8500 2250
 Wire Wire Line
 	8500 2150 8600 2150
-Text Label 5050 1800 2    50   ~ 0
+Text Label 5050 1250 2    50   ~ 0
 RJ11_A
-Text Label 5050 2000 2    50   ~ 0
+Text Label 5050 1350 2    50   ~ 0
 RJ11_B
-Wire Wire Line
-	5200 1800 5050 1800
 Wire Wire Line
 	4250 4400 4300 4400
 Wire Wire Line
@@ -866,8 +853,6 @@ Wire Wire Line
 Wire Wire Line
 	4300 4350 4650 4350
 Connection ~ 4650 4350
-Wire Wire Line
-	5050 2000 5200 2000
 Text Label 9925 2650 2    50   ~ 0
 RJ11_A
 Text Label 8900 2750 2    50   ~ 0
@@ -904,8 +889,6 @@ Connection ~ 7600 3000
 NoConn ~ 6750 1700
 NoConn ~ 6750 1600
 NoConn ~ 6750 1500
-NoConn ~ 5200 1900
-NoConn ~ 5200 1700
 $Comp
 L temperature~board:9_R_01x10 U2
 U 1 1 5CEAF80E
@@ -1066,9 +1049,34 @@ U 1 1 5D0E5937
 P 4000 1650
 F 0 "J1" H 4082 1975 50  0000 C CNN
 F 1 "Connector_Barrel_Jack" H 4082 1884 50  0000 C CNN
-F 2 "" H 4050 1610 50  0001 C CNN
+F 2 "temperature board:barreljack" H 4050 1610 50  0001 C CNN
 F 3 "" H 4050 1610 50  0001 C CNN
 	1    4000 1650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5200 1550
+NoConn ~ 5200 1050
+Wire Wire Line
+	5050 1250 5200 1250
+Wire Wire Line
+	5050 1350 5200 1350
+Wire Wire Line
+	5050 1450 5200 1450
+Wire Wire Line
+	5200 1150 5050 1150
+Text Label 5050 1150 0    50   ~ 0
+Gnd
+Text Label 5050 1450 0    50   ~ 0
+Gnd
+$Comp
+L temperature~board:EthernetJack J11
+U 1 1 5D351280
+P 5400 1250
+F 0 "J11" H 5478 1241 50  0000 L CNN
+F 1 "EthernetJack" H 5478 1150 50  0000 L CNN
+F 2 "" H 5400 1250 50  0001 C CNN
+F 3 "" H 5400 1250 50  0001 C CNN
+	1    5400 1250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
