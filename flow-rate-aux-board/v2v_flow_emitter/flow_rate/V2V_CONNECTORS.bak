@@ -1,0 +1,364 @@
+EESchema Schematic File Version 4
+LIBS:flow_rate-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3450 1800 0    50   Input ~ 0
+V2V_1
+Text HLabel 3450 2300 0    50   Input ~ 0
+V2V_2
+Text HLabel 3450 2800 0    50   Input ~ 0
+V2V_3
+Text HLabel 3450 3300 0    50   Input ~ 0
+V2V_4
+Text HLabel 3450 3800 0    50   Input ~ 0
+V2V_5
+Text HLabel 3450 4300 0    50   Input ~ 0
+V2V_6
+Text HLabel 3450 4800 0    50   Input ~ 0
+V2V_7
+Text HLabel 3450 1300 0    50   Input ~ 0
+V2V_0
+Wire Wire Line
+	3750 4100 3750 4600
+Connection ~ 3750 4100
+Wire Wire Line
+	3750 3600 3750 4100
+Connection ~ 3750 3600
+Wire Wire Line
+	3750 3100 3750 3600
+Connection ~ 3750 3100
+Wire Wire Line
+	3750 2600 3750 3100
+Connection ~ 3750 2600
+Wire Wire Line
+	3750 2100 3750 2600
+Connection ~ 3750 2100
+Wire Wire Line
+	3750 1600 3750 2100
+Connection ~ 3750 1600
+Wire Wire Line
+	3750 1100 3750 1600
+Connection ~ 3750 1100
+Wire Wire Line
+	3750 875  3750 1100
+Text HLabel 3750 875  1    50   Input ~ 0
+V2V_5V
+Connection ~ 3625 4200
+Connection ~ 3625 3700
+Connection ~ 3625 3200
+Connection ~ 3625 2700
+Connection ~ 3625 2200
+Connection ~ 3625 1700
+Connection ~ 3625 1200
+Wire Wire Line
+	3625 1200 3625 875 
+$Comp
+L Connector_Generic:Conn_01x04 J11
+U 1 1 5EB13A15
+P 4525 4700
+F 0 "J11" H 4605 4692 50  0000 L CNN
+F 1 "Conn_01x04" H 4605 4601 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 4525 4700 50  0001 C CNN
+F 3 "~" H 4525 4700 50  0001 C CNN
+	1    4525 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J10
+U 1 1 5EB13A0F
+P 4525 4200
+F 0 "J10" H 4605 4192 50  0000 L CNN
+F 1 "Conn_01x04" H 4605 4101 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 4525 4200 50  0001 C CNN
+F 3 "~" H 4525 4200 50  0001 C CNN
+	1    4525 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J9
+U 1 1 5EB13A09
+P 4525 3700
+F 0 "J9" H 4605 3692 50  0000 L CNN
+F 1 "Conn_01x04" H 4605 3601 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 4525 3700 50  0001 C CNN
+F 3 "~" H 4525 3700 50  0001 C CNN
+	1    4525 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J8
+U 1 1 5EB13A03
+P 4525 3200
+F 0 "J8" H 4605 3192 50  0000 L CNN
+F 1 "Conn_01x04" H 4605 3101 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 4525 3200 50  0001 C CNN
+F 3 "~" H 4525 3200 50  0001 C CNN
+	1    4525 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J7
+U 1 1 5EB0E683
+P 4525 2700
+F 0 "J7" H 4605 2692 50  0000 L CNN
+F 1 "Conn_01x04" H 4605 2601 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 4525 2700 50  0001 C CNN
+F 3 "~" H 4525 2700 50  0001 C CNN
+	1    4525 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J6
+U 1 1 5EB0C6CE
+P 4525 2200
+F 0 "J6" H 4605 2192 50  0000 L CNN
+F 1 "Conn_01x04" H 4605 2101 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 4525 2200 50  0001 C CNN
+F 3 "~" H 4525 2200 50  0001 C CNN
+	1    4525 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J5
+U 1 1 5EB0AC2D
+P 4525 1700
+F 0 "J5" H 4605 1692 50  0000 L CNN
+F 1 "Conn_01x04" H 4605 1601 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 4525 1700 50  0001 C CNN
+F 3 "~" H 4525 1700 50  0001 C CNN
+	1    4525 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 5EB08EA1
+P 4525 1200
+F 0 "J4" H 4605 1192 50  0000 L CNN
+F 1 "Conn_01x04" H 4605 1101 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 4525 1200 50  0001 C CNN
+F 3 "~" H 4525 1200 50  0001 C CNN
+	1    4525 1200
+	1    0    0    -1  
+$EndComp
+Text HLabel 3550 5100 3    50   Input ~ 0
+V2V_GND
+Text HLabel 3625 875  1    50   Input ~ 0
+V2V_3.3
+Wire Wire Line
+	3550 5100 3550 4900
+Wire Wire Line
+	3625 1200 3625 1700
+Wire Wire Line
+	3625 1700 3625 2200
+Wire Wire Line
+	3625 2700 3625 3200
+Connection ~ 3550 1900
+Wire Wire Line
+	3550 1900 3550 1400
+Wire Wire Line
+	3625 2200 3625 2700
+Connection ~ 3550 2400
+Wire Wire Line
+	3550 2400 3550 1900
+Connection ~ 3550 2900
+Wire Wire Line
+	3550 2900 3550 2400
+Connection ~ 3550 4900
+Wire Wire Line
+	3550 4900 3550 4400
+Wire Wire Line
+	3625 4200 3625 4700
+Connection ~ 3550 4400
+Wire Wire Line
+	3550 4400 3550 3900
+Wire Wire Line
+	3625 3700 3625 4200
+Connection ~ 3550 3900
+Wire Wire Line
+	3550 3900 3550 3400
+Wire Wire Line
+	3625 3200 3625 3700
+Connection ~ 3550 3400
+Wire Wire Line
+	3550 3400 3550 2900
+$Comp
+L Device:R R57
+U 1 1 5DC41756
+P 4050 1100
+F 0 "R57" V 3843 1100 50  0000 C CNN
+F 1 "100" V 3934 1100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3980 1100 50  0001 C CNN
+F 3 "~" H 4050 1100 50  0001 C CNN
+	1    4050 1100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 1100 3900 1100
+Wire Wire Line
+	4200 1100 4325 1100
+$Comp
+L Device:R R58
+U 1 1 5DC44D64
+P 4050 1600
+F 0 "R58" V 3843 1600 50  0000 C CNN
+F 1 "100" V 3934 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3980 1600 50  0001 C CNN
+F 3 "~" H 4050 1600 50  0001 C CNN
+	1    4050 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R59
+U 1 1 5DC46227
+P 4075 2100
+F 0 "R59" V 3868 2100 50  0000 C CNN
+F 1 "100" V 3959 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4005 2100 50  0001 C CNN
+F 3 "~" H 4075 2100 50  0001 C CNN
+	1    4075 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R60
+U 1 1 5DC47A81
+P 4075 2600
+F 0 "R60" V 3868 2600 50  0000 C CNN
+F 1 "100" V 3959 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4005 2600 50  0001 C CNN
+F 3 "~" H 4075 2600 50  0001 C CNN
+	1    4075 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R61
+U 1 1 5DC49407
+P 4075 3100
+F 0 "R61" V 3868 3100 50  0000 C CNN
+F 1 "100" V 3959 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4005 3100 50  0001 C CNN
+F 3 "~" H 4075 3100 50  0001 C CNN
+	1    4075 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R62
+U 1 1 5DC4A7E3
+P 4075 3600
+F 0 "R62" V 3868 3600 50  0000 C CNN
+F 1 "100" V 3959 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4005 3600 50  0001 C CNN
+F 3 "~" H 4075 3600 50  0001 C CNN
+	1    4075 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R63
+U 1 1 5DC4BBAA
+P 4075 4100
+F 0 "R63" V 3868 4100 50  0000 C CNN
+F 1 "100" V 3959 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4005 4100 50  0001 C CNN
+F 3 "~" H 4075 4100 50  0001 C CNN
+	1    4075 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R64
+U 1 1 5DC4D12A
+P 4075 4600
+F 0 "R64" V 3868 4600 50  0000 C CNN
+F 1 "100" V 3959 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4005 4600 50  0001 C CNN
+F 3 "~" H 4075 4600 50  0001 C CNN
+	1    4075 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 1600 3900 1600
+Wire Wire Line
+	4200 1600 4325 1600
+Wire Wire Line
+	3750 2100 3925 2100
+Wire Wire Line
+	4225 2100 4325 2100
+Wire Wire Line
+	3750 2600 3925 2600
+Wire Wire Line
+	4225 2600 4325 2600
+Wire Wire Line
+	3750 4600 3925 4600
+Wire Wire Line
+	4225 4600 4325 4600
+Wire Wire Line
+	3625 4700 4325 4700
+Wire Wire Line
+	3450 4800 4325 4800
+Wire Wire Line
+	3550 4900 4325 4900
+Wire Wire Line
+	3750 4100 3925 4100
+Wire Wire Line
+	4225 4100 4325 4100
+Wire Wire Line
+	3750 3600 3925 3600
+Wire Wire Line
+	4225 3600 4325 3600
+Wire Wire Line
+	3750 3100 3925 3100
+Wire Wire Line
+	4225 3100 4325 3100
+Wire Wire Line
+	3550 4400 4325 4400
+Wire Wire Line
+	3450 4300 4325 4300
+Wire Wire Line
+	3625 4200 4325 4200
+Wire Wire Line
+	3550 3900 4325 3900
+Wire Wire Line
+	3450 3800 4325 3800
+Wire Wire Line
+	3625 3700 4325 3700
+Wire Wire Line
+	3550 3400 4325 3400
+Wire Wire Line
+	3450 3300 4325 3300
+Wire Wire Line
+	3625 3200 4325 3200
+Wire Wire Line
+	3550 2900 4325 2900
+Wire Wire Line
+	3450 2800 4325 2800
+Wire Wire Line
+	3625 2700 4325 2700
+Wire Wire Line
+	3550 2400 4325 2400
+Wire Wire Line
+	3450 2300 4325 2300
+Wire Wire Line
+	3625 2200 4325 2200
+Wire Wire Line
+	3550 1900 4325 1900
+Wire Wire Line
+	3450 1800 4325 1800
+Wire Wire Line
+	3625 1700 4325 1700
+Wire Wire Line
+	3550 1400 4325 1400
+Wire Wire Line
+	3450 1300 4325 1300
+Wire Wire Line
+	3625 1200 4325 1200
+$EndSCHEMATC

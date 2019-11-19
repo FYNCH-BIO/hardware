@@ -1,0 +1,178 @@
+EESchema Schematic File Version 4
+LIBS:flow_rate-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R49
+U 1 1 5E88F623
+P 3700 2025
+F 0 "R49" V 3493 2025 50  0000 C CNN
+F 1 "2.2k" V 3584 2025 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3630 2025 50  0001 C CNN
+F 3 "~" H 3700 2025 50  0001 C CNN
+	1    3700 2025
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R50
+U 1 1 5E88FA5C
+P 3700 2350
+F 0 "R50" V 3493 2350 50  0000 C CNN
+F 1 "2.2k" V 3584 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3630 2350 50  0001 C CNN
+F 3 "~" H 3700 2350 50  0001 C CNN
+	1    3700 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R51
+U 1 1 5E890D15
+P 3700 2675
+F 0 "R51" V 3493 2675 50  0000 C CNN
+F 1 "2.2k" V 3584 2675 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3630 2675 50  0001 C CNN
+F 3 "~" H 3700 2675 50  0001 C CNN
+	1    3700 2675
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R52
+U 1 1 5E890D1B
+P 3700 3000
+F 0 "R52" V 3493 3000 50  0000 C CNN
+F 1 "2.2k" V 3584 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3630 3000 50  0001 C CNN
+F 3 "~" H 3700 3000 50  0001 C CNN
+	1    3700 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R53
+U 1 1 5E892273
+P 3700 3325
+F 0 "R53" V 3493 3325 50  0000 C CNN
+F 1 "2.2k" V 3584 3325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3630 3325 50  0001 C CNN
+F 3 "~" H 3700 3325 50  0001 C CNN
+	1    3700 3325
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R54
+U 1 1 5E892279
+P 3700 3650
+F 0 "R54" V 3493 3650 50  0000 C CNN
+F 1 "2.2k" V 3584 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3630 3650 50  0001 C CNN
+F 3 "~" H 3700 3650 50  0001 C CNN
+	1    3700 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R55
+U 1 1 5E89227F
+P 3700 3975
+F 0 "R55" V 3493 3975 50  0000 C CNN
+F 1 "2.2k" V 3584 3975 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3630 3975 50  0001 C CNN
+F 3 "~" H 3700 3975 50  0001 C CNN
+	1    3700 3975
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R56
+U 1 1 5E892285
+P 3700 4300
+F 0 "R56" V 3493 4300 50  0000 C CNN
+F 1 "2.2k" V 3584 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3630 4300 50  0001 C CNN
+F 3 "~" H 3700 4300 50  0001 C CNN
+	1    3700 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 2025 4175 2025
+Wire Wire Line
+	4175 2025 4175 2350
+Wire Wire Line
+	3850 4300 4175 4300
+Connection ~ 4175 4300
+Wire Wire Line
+	4175 4300 4175 4600
+Wire Wire Line
+	3850 3975 4175 3975
+Connection ~ 4175 3975
+Wire Wire Line
+	4175 3975 4175 4300
+Wire Wire Line
+	3850 3650 4175 3650
+Connection ~ 4175 3650
+Wire Wire Line
+	4175 3650 4175 3975
+Wire Wire Line
+	3850 3325 4175 3325
+Connection ~ 4175 3325
+Wire Wire Line
+	4175 3325 4175 3650
+Wire Wire Line
+	3850 3000 4175 3000
+Connection ~ 4175 3000
+Wire Wire Line
+	4175 3000 4175 3325
+Wire Wire Line
+	3850 2675 4175 2675
+Connection ~ 4175 2675
+Wire Wire Line
+	4175 2675 4175 3000
+Wire Wire Line
+	3850 2350 4175 2350
+Connection ~ 4175 2350
+Wire Wire Line
+	4175 2350 4175 2675
+Text HLabel 4175 4600 3    50   Input ~ 0
+V2V_GND
+Wire Wire Line
+	3550 2025 3300 2025
+Wire Wire Line
+	3550 2350 3300 2350
+Wire Wire Line
+	3550 2675 3300 2675
+Wire Wire Line
+	3550 3000 3300 3000
+Wire Wire Line
+	3550 3325 3300 3325
+Wire Wire Line
+	3550 3650 3300 3650
+Wire Wire Line
+	3550 3975 3300 3975
+Wire Wire Line
+	3550 4300 3300 4300
+Text HLabel 3300 2025 0    50   Input ~ 0
+V2V_0
+Text HLabel 3300 2350 0    50   Input ~ 0
+V2V_1
+Text HLabel 3300 2675 0    50   Input ~ 0
+V2V_2
+Text HLabel 3300 3000 0    50   Input ~ 0
+V2V_3
+Text HLabel 3300 3325 0    50   Input ~ 0
+V2V_4
+Text HLabel 3300 3650 0    50   Input ~ 0
+V2V_5
+Text HLabel 3300 3975 0    50   Input ~ 0
+V2V_6
+Text HLabel 3300 4300 0    50   Input ~ 0
+V2V_7
+$EndSCHEMATC
