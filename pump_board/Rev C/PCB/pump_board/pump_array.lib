@@ -1,0 +1,18 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# peristaltic_pump
+#
+DEF peristaltic_pump U 0 40 Y Y 1 F N
+F0 "U" 50 250 60 H V C CNN
+F1 "peristaltic_pump" 50 -250 60 H V C CNN
+F2 "" 0 200 60 H I C CNN
+F3 "" 0 200 60 H I C CNN
+DRAW
+S -200 -150 250 150 0 1 0 N
+X POS(+) 1 -400 50 200 R 50 50 1 1 I
+X NEG(-) 2 -400 -50 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
