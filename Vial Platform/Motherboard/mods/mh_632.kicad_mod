@@ -1,0 +1,10 @@
+(module mh_632 (layer F.Cu) (tedit 5B48FE0A)
+  (fp_text reference MH16 (at 0 6.35) (layer F.SilkS) hide
+    (effects (font (size 1.778 1.778) (thickness 0.3048)))
+  )
+  (fp_text value MountingHole (at 0 -4.6) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end -2.6 -3) (layer F.SilkS) (width 0.15))
+  (pad 1 thru_hole circle (at 0 0) (size 7.62 7.62) (drill 3.81) (layers *.Cu *.Mask))
+)

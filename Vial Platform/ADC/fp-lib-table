@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name mods)(type KiCad)(uri "/Volumes/GoogleDrive/My Drive/FynchBio - Personal/Designs/Electronics/ADC_Board/trunk/mods")(options "")(descr ""))
+  (lib (name ADC)(type KiCad)(uri "/Volumes/GoogleDrive/My Drive/FynchBio - Personal/Designs/Electronics/ADC_Board/trunk/lib")(options "")(descr ""))
+  (lib (name mods-2)(type KiCad)(uri "$(KIPRJMOD)/mods")(options "")(descr ""))
+)

@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name conn1)(type Legacy)(uri "/Volumes/GoogleDrive/My Drive/FynchBio - Personal/Designs/Electronics/Auxiliary_Board/tags/production-run-2020-01/lib/conn.lib")(options "")(descr ""))
+  (lib (name device1)(type Legacy)(uri "/Volumes/GoogleDrive/My Drive/FynchBio - Personal/Designs/Electronics/Auxiliary_Board/tags/production-run-2020-01/lib/device.lib")(options "")(descr ""))
+  (lib (name eVOLVER_pwm)(type Legacy)(uri "/Volumes/GoogleDrive/My Drive/FynchBio - Personal/Designs/Electronics/Auxiliary_Board/tags/production-run-2020-01/lib/eVOLVER_pwm.lib")(options "")(descr ""))
+  (lib (name Motherboard)(type Legacy)(uri "/Volumes/GoogleDrive/My Drive/FynchBio - Personal/Designs/Electronics/Auxiliary_Board/tags/production-run-2020-01/lib/Motherboard.lib")(options "")(descr ""))
+  (lib (name mountinghole)(type Legacy)(uri "/Volumes/GoogleDrive/My Drive/FynchBio - Personal/Designs/Electronics/Auxiliary_Board/tags/production-run-2020-01/lib/mountinghole.lib")(options "")(descr ""))
+  (lib (name power1)(type Legacy)(uri "/Volumes/GoogleDrive/My Drive/FynchBio - Personal/Designs/Electronics/Auxiliary_Board/tags/production-run-2020-01/lib/power.lib")(options "")(descr ""))
+)

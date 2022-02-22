@@ -1,0 +1,770 @@
+EESchema Schematic File Version 2
+LIBS:ADC
+LIBS:power
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:Lattice
+LIBS:linear
+LIBS:maxim
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:Xicor
+LIBS:xilinx
+LIBS:Zilog
+LIBS:ADC-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCP6004 U3
+U 1 1 576320A4
+P 2500 1900
+AR Path="/57630C50/576320A4" Ref="U3"  Part="1" 
+AR Path="/57687BE9/576320A4" Ref="U4"  Part="1" 
+AR Path="/576883AE/576320A4" Ref="U5"  Part="1" 
+AR Path="/57688B4B/576320A4" Ref="U6"  Part="1" 
+F 0 "U3" H 2550 2100 50  0000 C CNN
+F 1 "MCP6004" H 2650 1700 50  0000 C CNN
+F 2 "ADC:MCP6004" H 2450 2000 50  0001 C CNN
+F 3 "" H 2550 2100 50  0000 C CNN
+F 4 "MCP6004T-I/STCT-ND" H 2500 1900 60  0001 C CNN "Catalog Number"
+F 5 "Digi-Key" H 2500 1900 60  0001 C CNN "Supplier Name"
+	1    2500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR025
+U 1 1 576320AB
+P 2400 1150
+AR Path="/57630C50/576320AB" Ref="#PWR025"  Part="1" 
+AR Path="/57687BE9/576320AB" Ref="#PWR032"  Part="1" 
+AR Path="/576883AE/576320AB" Ref="#PWR039"  Part="1" 
+AR Path="/57688B4B/576320AB" Ref="#PWR046"  Part="1" 
+F 0 "#PWR046" H 2400 1000 50  0001 C CNN
+F 1 "+3.3V" H 2400 1290 50  0000 C CNN
+F 2 "" H 2400 1150 50  0000 C CNN
+F 3 "" H 2400 1150 50  0000 C CNN
+	1    2400 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR026
+U 1 1 576320B9
+P 2050 1600
+AR Path="/57630C50/576320B9" Ref="#PWR026"  Part="1" 
+AR Path="/57687BE9/576320B9" Ref="#PWR033"  Part="1" 
+AR Path="/576883AE/576320B9" Ref="#PWR040"  Part="1" 
+AR Path="/57688B4B/576320B9" Ref="#PWR047"  Part="1" 
+F 0 "#PWR047" H 2050 1350 50  0001 C CNN
+F 1 "GND" H 2050 1450 50  0000 C CNN
+F 2 "" H 2050 1600 50  0000 C CNN
+F 3 "" H 2050 1600 50  0000 C CNN
+	1    2050 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 576320D2
+P 1700 2250
+AR Path="/57630C50/576320D2" Ref="R2"  Part="1" 
+AR Path="/57687BE9/576320D2" Ref="R18"  Part="1" 
+AR Path="/576883AE/576320D2" Ref="R34"  Part="1" 
+AR Path="/57688B4B/576320D2" Ref="R50"  Part="1" 
+F 0 "R2" V 1780 2250 50  0000 C CNN
+F 1 "OMIT" V 1700 2250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 1630 2250 50  0001 C CNN
+F 3 "" H 1700 2250 50  0000 C CNN
+	1    1700 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R4
+U 1 1 576320E3
+P 2550 2500
+AR Path="/57630C50/576320E3" Ref="R4"  Part="1" 
+AR Path="/57687BE9/576320E3" Ref="R20"  Part="1" 
+AR Path="/576883AE/576320E3" Ref="R36"  Part="1" 
+AR Path="/57688B4B/576320E3" Ref="R52"  Part="1" 
+F 0 "R4" V 2630 2500 50  0000 C CNN
+F 1 "10k" V 2550 2500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 2480 2500 50  0001 C CNN
+F 3 "" H 2550 2500 50  0000 C CNN
+F 4 "311-10KJRDKR-ND" V 2550 2500 60  0001 C CNN "Catalog Number"
+F 5 "Digi-Key" V 2550 2500 60  0001 C CNN "Supplier Name"
+	1    2550 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 576320EC
+P 2100 2750
+AR Path="/57630C50/576320EC" Ref="R3"  Part="1" 
+AR Path="/57687BE9/576320EC" Ref="R19"  Part="1" 
+AR Path="/576883AE/576320EC" Ref="R35"  Part="1" 
+AR Path="/57688B4B/576320EC" Ref="R51"  Part="1" 
+F 0 "R3" V 2180 2750 50  0000 C CNN
+F 1 "OMIT" V 2100 2750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 2030 2750 50  0001 C CNN
+F 3 "" H 2100 2750 50  0000 C CNN
+	1    2100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 5763214D
+P 3200 1900
+AR Path="/57630C50/5763214D" Ref="R5"  Part="1" 
+AR Path="/57687BE9/5763214D" Ref="R21"  Part="1" 
+AR Path="/576883AE/5763214D" Ref="R37"  Part="1" 
+AR Path="/57688B4B/5763214D" Ref="R53"  Part="1" 
+F 0 "R5" V 3280 1900 50  0000 C CNN
+F 1 "10k" V 3200 1900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 3130 1900 50  0001 C CNN
+F 3 "" H 3200 1900 50  0000 C CNN
+F 4 "311-10KJRDKR-ND" V 3200 1900 60  0001 C CNN "Catalog Number"
+F 5 "Digi-Key" V 3200 1900 60  0001 C CNN "Supplier Name"
+	1    3200 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C5
+U 1 1 5763216F
+P 2050 1400
+AR Path="/57630C50/5763216F" Ref="C5"  Part="1" 
+AR Path="/57687BE9/5763216F" Ref="C10"  Part="1" 
+AR Path="/576883AE/5763216F" Ref="C15"  Part="1" 
+AR Path="/57688B4B/5763216F" Ref="C20"  Part="1" 
+F 0 "C5" H 1950 1500 50  0000 L CNN
+F 1 ".1uF" H 2100 1300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 2088 1250 50  0001 C CNN
+F 3 "" H 2050 1400 50  0000 C CNN
+F 4 "490-10777-6-ND" H 2050 1400 60  0001 C CNN "Catalog Number"
+F 5 "Digi-Key" H 2050 1400 60  0001 C CNN "Supplier Name"
+	1    2050 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR027
+U 1 1 5763CFDF
+P 2400 2200
+AR Path="/57630C50/5763CFDF" Ref="#PWR027"  Part="1" 
+AR Path="/57687BE9/5763CFDF" Ref="#PWR034"  Part="1" 
+AR Path="/576883AE/5763CFDF" Ref="#PWR041"  Part="1" 
+AR Path="/57688B4B/5763CFDF" Ref="#PWR048"  Part="1" 
+F 0 "#PWR048" H 2400 1950 50  0001 C CNN
+F 1 "GND" H 2400 2050 50  0000 C CNN
+F 2 "" H 2400 2200 50  0000 C CNN
+F 3 "" H 2400 2200 50  0000 C CNN
+	1    2400 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP6004 U3
+U 3 1 5763E0FD
+P 5700 3750
+AR Path="/57630C50/5763E0FD" Ref="U3"  Part="3" 
+AR Path="/57687BE9/5763E0FD" Ref="U4"  Part="3" 
+AR Path="/576883AE/5763E0FD" Ref="U5"  Part="3" 
+AR Path="/57688B4B/5763E0FD" Ref="U6"  Part="3" 
+F 0 "U3" H 5750 3950 50  0000 C CNN
+F 1 "MCP6004" H 5850 3550 50  0000 C CNN
+F 2 "ADC:MCP6004" H 5650 3850 50  0001 C CNN
+F 3 "" H 5750 3950 50  0000 C CNN
+	3    5700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 5763E10F
+P 4900 4100
+AR Path="/57630C50/5763E10F" Ref="R10"  Part="1" 
+AR Path="/57687BE9/5763E10F" Ref="R26"  Part="1" 
+AR Path="/576883AE/5763E10F" Ref="R42"  Part="1" 
+AR Path="/57688B4B/5763E10F" Ref="R58"  Part="1" 
+F 0 "R10" V 4980 4100 50  0000 C CNN
+F 1 "OMIT" V 4900 4100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 4830 4100 50  0001 C CNN
+F 3 "" H 4900 4100 50  0000 C CNN
+	1    4900 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R11
+U 1 1 5763E115
+P 5300 4600
+AR Path="/57630C50/5763E115" Ref="R11"  Part="1" 
+AR Path="/57687BE9/5763E115" Ref="R27"  Part="1" 
+AR Path="/576883AE/5763E115" Ref="R43"  Part="1" 
+AR Path="/57688B4B/5763E115" Ref="R59"  Part="1" 
+F 0 "R11" V 5380 4600 50  0000 C CNN
+F 1 "OMIT" V 5300 4600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 5230 4600 50  0001 C CNN
+F 3 "" H 5300 4600 50  0000 C CNN
+	1    5300 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R12
+U 1 1 5763E11B
+P 5750 4400
+AR Path="/57630C50/5763E11B" Ref="R12"  Part="1" 
+AR Path="/57687BE9/5763E11B" Ref="R28"  Part="1" 
+AR Path="/576883AE/5763E11B" Ref="R44"  Part="1" 
+AR Path="/57688B4B/5763E11B" Ref="R60"  Part="1" 
+F 0 "R12" V 5830 4400 50  0000 C CNN
+F 1 "10k" V 5750 4400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 5680 4400 50  0001 C CNN
+F 3 "" H 5750 4400 50  0000 C CNN
+F 4 "311-10KJRDKR-ND" V 5750 4400 60  0001 C CNN "Catalog Number"
+F 5 "Digi-Key" V 5750 4400 60  0001 C CNN "Supplier Name"
+	1    5750 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R13
+U 1 1 5763E121
+P 6400 3750
+AR Path="/57630C50/5763E121" Ref="R13"  Part="1" 
+AR Path="/57687BE9/5763E121" Ref="R29"  Part="1" 
+AR Path="/576883AE/5763E121" Ref="R45"  Part="1" 
+AR Path="/57688B4B/5763E121" Ref="R61"  Part="1" 
+F 0 "R13" V 6480 3750 50  0000 C CNN
+F 1 "10k" V 6400 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 6330 3750 50  0001 C CNN
+F 3 "" H 6400 3750 50  0000 C CNN
+F 4 "311-10KJRDKR-ND" V 6400 3750 60  0001 C CNN "Catalog Number"
+F 5 "Digi-Key" V 6400 3750 60  0001 C CNN "Supplier Name"
+	1    6400 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR028
+U 1 1 5763E12D
+P 5300 4950
+AR Path="/57630C50/5763E12D" Ref="#PWR028"  Part="1" 
+AR Path="/57687BE9/5763E12D" Ref="#PWR035"  Part="1" 
+AR Path="/576883AE/5763E12D" Ref="#PWR042"  Part="1" 
+AR Path="/57688B4B/5763E12D" Ref="#PWR049"  Part="1" 
+F 0 "#PWR049" H 5300 4700 50  0001 C CNN
+F 1 "GND" H 5300 4800 50  0000 C CNN
+F 2 "" H 5300 4950 50  0000 C CNN
+F 3 "" H 5300 4950 50  0000 C CNN
+	1    5300 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP6004 U3
+U 4 1 5763ED74
+P 5700 1900
+AR Path="/57630C50/5763ED74" Ref="U3"  Part="4" 
+AR Path="/57687BE9/5763ED74" Ref="U4"  Part="4" 
+AR Path="/576883AE/5763ED74" Ref="U5"  Part="4" 
+AR Path="/57688B4B/5763ED74" Ref="U6"  Part="4" 
+F 0 "U3" H 5750 2100 50  0000 C CNN
+F 1 "MCP6004" H 5850 1700 50  0000 C CNN
+F 2 "ADC:MCP6004" H 5650 2000 50  0001 C CNN
+F 3 "" H 5750 2100 50  0000 C CNN
+	4    5700 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R14
+U 1 1 5763ED7A
+P 4900 2250
+AR Path="/57630C50/5763ED7A" Ref="R14"  Part="1" 
+AR Path="/57687BE9/5763ED7A" Ref="R30"  Part="1" 
+AR Path="/576883AE/5763ED7A" Ref="R46"  Part="1" 
+AR Path="/57688B4B/5763ED7A" Ref="R62"  Part="1" 
+F 0 "R14" V 4980 2250 50  0000 C CNN
+F 1 "OMIT" V 4900 2250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 4830 2250 50  0001 C CNN
+F 3 "" H 4900 2250 50  0000 C CNN
+	1    4900 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R15
+U 1 1 5763ED80
+P 5300 2750
+AR Path="/57630C50/5763ED80" Ref="R15"  Part="1" 
+AR Path="/57687BE9/5763ED80" Ref="R31"  Part="1" 
+AR Path="/576883AE/5763ED80" Ref="R47"  Part="1" 
+AR Path="/57688B4B/5763ED80" Ref="R63"  Part="1" 
+F 0 "R15" V 5380 2750 50  0000 C CNN
+F 1 "OMIT" V 5300 2750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 5230 2750 50  0001 C CNN
+F 3 "" H 5300 2750 50  0000 C CNN
+	1    5300 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R16
+U 1 1 5763ED86
+P 5750 2550
+AR Path="/57630C50/5763ED86" Ref="R16"  Part="1" 
+AR Path="/57687BE9/5763ED86" Ref="R32"  Part="1" 
+AR Path="/576883AE/5763ED86" Ref="R48"  Part="1" 
+AR Path="/57688B4B/5763ED86" Ref="R64"  Part="1" 
+F 0 "R16" V 5830 2550 50  0000 C CNN
+F 1 "10k" V 5750 2550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 5680 2550 50  0001 C CNN
+F 3 "" H 5750 2550 50  0000 C CNN
+F 4 "311-10KJRDKR-ND" V 5750 2550 60  0001 C CNN "Catalog Number"
+F 5 "Digi-Key" V 5750 2550 60  0001 C CNN "Supplier Name"
+	1    5750 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R17
+U 1 1 5763ED8C
+P 6400 1900
+AR Path="/57630C50/5763ED8C" Ref="R17"  Part="1" 
+AR Path="/57687BE9/5763ED8C" Ref="R33"  Part="1" 
+AR Path="/576883AE/5763ED8C" Ref="R49"  Part="1" 
+AR Path="/57688B4B/5763ED8C" Ref="R65"  Part="1" 
+F 0 "R17" V 6480 1900 50  0000 C CNN
+F 1 "10k" V 6400 1900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 6330 1900 50  0001 C CNN
+F 3 "" H 6400 1900 50  0000 C CNN
+F 4 "311-10KJRDKR-ND" V 6400 1900 60  0001 C CNN "Catalog Number"
+F 5 "Digi-Key" V 6400 1900 60  0001 C CNN "Supplier Name"
+	1    6400 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR029
+U 1 1 5763ED92
+P 5300 3100
+AR Path="/57630C50/5763ED92" Ref="#PWR029"  Part="1" 
+AR Path="/57687BE9/5763ED92" Ref="#PWR036"  Part="1" 
+AR Path="/576883AE/5763ED92" Ref="#PWR043"  Part="1" 
+AR Path="/57688B4B/5763ED92" Ref="#PWR050"  Part="1" 
+F 0 "#PWR050" H 5300 2850 50  0001 C CNN
+F 1 "GND" H 5300 2950 50  0000 C CNN
+F 2 "" H 5300 3100 50  0000 C CNN
+F 3 "" H 5300 3100 50  0000 C CNN
+	1    5300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP6004 U3
+U 2 1 5763F1E8
+P 2500 3750
+AR Path="/57630C50/5763F1E8" Ref="U3"  Part="2" 
+AR Path="/57687BE9/5763F1E8" Ref="U4"  Part="2" 
+AR Path="/576883AE/5763F1E8" Ref="U5"  Part="2" 
+AR Path="/57688B4B/5763F1E8" Ref="U6"  Part="2" 
+F 0 "U3" H 2550 3950 50  0000 C CNN
+F 1 "MCP6004" H 2650 3550 50  0000 C CNN
+F 2 "ADC:MCP6004" H 2450 3850 50  0001 C CNN
+F 3 "" H 2550 3950 50  0000 C CNN
+	2    2500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 5763F1EE
+P 1700 4100
+AR Path="/57630C50/5763F1EE" Ref="R6"  Part="1" 
+AR Path="/57687BE9/5763F1EE" Ref="R22"  Part="1" 
+AR Path="/576883AE/5763F1EE" Ref="R38"  Part="1" 
+AR Path="/57688B4B/5763F1EE" Ref="R54"  Part="1" 
+F 0 "R6" V 1780 4100 50  0000 C CNN
+F 1 "OMIT" V 1700 4100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 1630 4100 50  0001 C CNN
+F 3 "" H 1700 4100 50  0000 C CNN
+	1    1700 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R7
+U 1 1 5763F1F4
+P 2100 4600
+AR Path="/57630C50/5763F1F4" Ref="R7"  Part="1" 
+AR Path="/57687BE9/5763F1F4" Ref="R23"  Part="1" 
+AR Path="/576883AE/5763F1F4" Ref="R39"  Part="1" 
+AR Path="/57688B4B/5763F1F4" Ref="R55"  Part="1" 
+F 0 "R7" V 2180 4600 50  0000 C CNN
+F 1 "OMIT" V 2100 4600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 2030 4600 50  0001 C CNN
+F 3 "" H 2100 4600 50  0000 C CNN
+	1    2100 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R8
+U 1 1 5763F1FA
+P 2550 4400
+AR Path="/57630C50/5763F1FA" Ref="R8"  Part="1" 
+AR Path="/57687BE9/5763F1FA" Ref="R24"  Part="1" 
+AR Path="/576883AE/5763F1FA" Ref="R40"  Part="1" 
+AR Path="/57688B4B/5763F1FA" Ref="R56"  Part="1" 
+F 0 "R8" V 2630 4400 50  0000 C CNN
+F 1 "10k" V 2550 4400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 2480 4400 50  0001 C CNN
+F 3 "" H 2550 4400 50  0000 C CNN
+F 4 "311-10KJRDKR-ND" V 2550 4400 60  0001 C CNN "Catalog Number"
+F 5 "Digi-Key" V 2550 4400 60  0001 C CNN "Supplier Name"
+	1    2550 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R9
+U 1 1 5763F200
+P 3200 3750
+AR Path="/57630C50/5763F200" Ref="R9"  Part="1" 
+AR Path="/57687BE9/5763F200" Ref="R25"  Part="1" 
+AR Path="/576883AE/5763F200" Ref="R41"  Part="1" 
+AR Path="/57688B4B/5763F200" Ref="R57"  Part="1" 
+F 0 "R9" V 3280 3750 50  0000 C CNN
+F 1 "10k" V 3200 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 3130 3750 50  0001 C CNN
+F 3 "" H 3200 3750 50  0000 C CNN
+F 4 "311-10KJRDKR-ND" V 3200 3750 60  0001 C CNN "Catalog Number"
+F 5 "Digi-Key" V 3200 3750 60  0001 C CNN "Supplier Name"
+	1    3200 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR030
+U 1 1 5763F206
+P 2100 4950
+AR Path="/57630C50/5763F206" Ref="#PWR030"  Part="1" 
+AR Path="/57687BE9/5763F206" Ref="#PWR037"  Part="1" 
+AR Path="/576883AE/5763F206" Ref="#PWR044"  Part="1" 
+AR Path="/57688B4B/5763F206" Ref="#PWR051"  Part="1" 
+F 0 "#PWR051" H 2100 4700 50  0001 C CNN
+F 1 "GND" H 2100 4800 50  0000 C CNN
+F 2 "" H 2100 4950 50  0000 C CNN
+F 3 "" H 2100 4950 50  0000 C CNN
+	1    2100 4950
+	1    0    0    -1  
+$EndComp
+Text HLabel 1600 1800 0    60   Input ~ 0
+OPIN1
+Text HLabel 3750 1900 2    60   Output ~ 0
+OPOUT1
+Text HLabel 1600 3650 0    60   Input ~ 0
+OPIN2
+Text HLabel 3750 3750 2    60   Output ~ 0
+OPOUT2
+Text HLabel 6950 3750 2    60   Output ~ 0
+OPOUT3
+Text HLabel 7000 1900 2    60   Output ~ 0
+OPOUT4
+Text HLabel 4800 3650 0    60   Input ~ 0
+OPIN3
+Text HLabel 4800 1800 0    60   Input ~ 0
+OPIN4
+$Comp
+L C C6
+U 1 1 57682C09
+P 3400 2150
+AR Path="/57630C50/57682C09" Ref="C6"  Part="1" 
+AR Path="/57687BE9/57682C09" Ref="C11"  Part="1" 
+AR Path="/576883AE/57682C09" Ref="C16"  Part="1" 
+AR Path="/57688B4B/57682C09" Ref="C21"  Part="1" 
+F 0 "C6" H 3425 2250 50  0000 L CNN
+F 1 ".1uF" H 3425 2050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 3438 2000 50  0001 C CNN
+F 3 "" H 3400 2150 50  0000 C CNN
+F 4 "490-10777-6-ND" H 3400 2150 60  0001 C CNN "Catalog Number"
+F 5 "Digi-Key" H 3400 2150 60  0001 C CNN "Supplier Name"
+	1    3400 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2000 2100 2600
+Wire Wire Line
+	2100 2000 2200 2000
+Wire Wire Line
+	1700 1800 1700 2100
+Connection ~ 1700 1800
+Wire Wire Line
+	1600 1800 2200 1800
+Wire Wire Line
+	2700 2500 2900 2500
+Wire Wire Line
+	2900 2500 2900 1900
+Wire Wire Line
+	2800 1900 3050 1900
+Wire Wire Line
+	2400 1150 2400 1600
+Connection ~ 2900 1900
+Wire Wire Line
+	3350 1900 3750 1900
+Wire Wire Line
+	4900 4250 4900 4800
+Wire Wire Line
+	5300 4400 5600 4400
+Wire Wire Line
+	5300 3850 5300 4450
+Connection ~ 5300 4400
+Wire Wire Line
+	5300 3850 5400 3850
+Wire Wire Line
+	4900 3650 4900 3950
+Connection ~ 4900 3650
+Wire Wire Line
+	4800 3650 5400 3650
+Wire Wire Line
+	5900 4400 6100 4400
+Wire Wire Line
+	6100 4400 6100 3750
+Wire Wire Line
+	6000 3750 6250 3750
+Connection ~ 6100 3750
+Wire Wire Line
+	6550 3750 6950 3750
+Wire Wire Line
+	4900 2400 4900 2950
+Wire Wire Line
+	5300 2550 5600 2550
+Connection ~ 5300 2550
+Wire Wire Line
+	5300 2000 5400 2000
+Wire Wire Line
+	4900 1800 4900 2100
+Connection ~ 4900 1800
+Wire Wire Line
+	4800 1800 5400 1800
+Wire Wire Line
+	5900 2550 6100 2550
+Wire Wire Line
+	6100 2550 6100 1900
+Wire Wire Line
+	6000 1900 6250 1900
+Connection ~ 6100 1900
+Wire Wire Line
+	6550 1900 7000 1900
+Wire Wire Line
+	1700 4250 1700 4800
+Wire Wire Line
+	2100 4400 2400 4400
+Wire Wire Line
+	2100 3850 2100 4450
+Connection ~ 2100 4400
+Wire Wire Line
+	2100 3850 2200 3850
+Wire Wire Line
+	1700 3650 1700 3950
+Connection ~ 1700 3650
+Wire Wire Line
+	1600 3650 2200 3650
+Wire Wire Line
+	2700 4400 2900 4400
+Wire Wire Line
+	2900 4400 2900 3750
+Wire Wire Line
+	2800 3750 3050 3750
+Connection ~ 2900 3750
+Wire Wire Line
+	3350 3750 3750 3750
+Wire Wire Line
+	4900 2950 5300 2950
+Connection ~ 5300 2950
+Wire Wire Line
+	2050 1550 2050 1600
+Wire Wire Line
+	2050 1250 2400 1250
+Connection ~ 2400 1250
+Wire Wire Line
+	3400 3850 3400 3750
+Connection ~ 3400 3750
+Wire Wire Line
+	6600 3850 6600 3750
+Connection ~ 6600 3750
+Wire Wire Line
+	6600 2000 6600 1900
+Connection ~ 6600 1900
+Wire Wire Line
+	3400 4150 3400 4150
+Wire Wire Line
+	1700 2400 1700 2950
+Wire Wire Line
+	2100 2500 2400 2500
+Connection ~ 2100 2500
+Wire Wire Line
+	2100 2900 2100 3100
+$Comp
+L GND #PWR031
+U 1 1 576B3A2B
+P 2100 3100
+AR Path="/57630C50/576B3A2B" Ref="#PWR031"  Part="1" 
+AR Path="/57687BE9/576B3A2B" Ref="#PWR038"  Part="1" 
+AR Path="/576883AE/576B3A2B" Ref="#PWR045"  Part="1" 
+AR Path="/57688B4B/576B3A2B" Ref="#PWR052"  Part="1" 
+F 0 "#PWR052" H 2100 2850 50  0001 C CNN
+F 1 "GND" H 2100 2950 50  0000 C CNN
+F 2 "" H 2100 3100 50  0000 C CNN
+F 3 "" H 2100 3100 50  0000 C CNN
+	1    2100 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 2100 2950
+Wire Wire Line
+	3400 2300 3400 3050
+Wire Wire Line
+	3400 2000 3400 1900
+Connection ~ 3400 1900
+Wire Wire Line
+	4900 4800 5300 4800
+Wire Wire Line
+	5300 4750 5300 4950
+Connection ~ 5300 4800
+$Comp
+L C C8
+U 1 1 576B444B
+P 6600 4000
+AR Path="/57630C50/576B444B" Ref="C8"  Part="1" 
+AR Path="/57687BE9/576B444B" Ref="C13"  Part="1" 
+AR Path="/576883AE/576B444B" Ref="C18"  Part="1" 
+AR Path="/57688B4B/576B444B" Ref="C23"  Part="1" 
+F 0 "C8" H 6625 4100 50  0000 L CNN
+F 1 ".1uF" H 6625 3900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6638 3850 50  0001 C CNN
+F 3 "" H 6600 4000 50  0000 C CNN
+F 4 "490-10777-6-ND" H 6600 4000 60  0001 C CNN "Catalog Number"
+F 5 "Digi-Key" H 6600 4000 60  0001 C CNN "Supplier Name"
+	1    6600 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4150 6600 4900
+$Comp
+L C C7
+U 1 1 576B4919
+P 3400 4000
+AR Path="/57630C50/576B4919" Ref="C7"  Part="1" 
+AR Path="/57687BE9/576B4919" Ref="C12"  Part="1" 
+AR Path="/576883AE/576B4919" Ref="C17"  Part="1" 
+AR Path="/57688B4B/576B4919" Ref="C22"  Part="1" 
+F 0 "C7" H 3425 4100 50  0000 L CNN
+F 1 ".1uF" H 3425 3900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 3438 3850 50  0001 C CNN
+F 3 "" H 3400 4000 50  0000 C CNN
+F 4 "490-10777-6-ND" H 3400 4000 60  0001 C CNN "Catalog Number"
+F 5 "Digi-Key" H 3400 4000 60  0001 C CNN "Supplier Name"
+	1    3400 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 4750 2100 4950
+Wire Wire Line
+	1700 4800 2100 4800
+Connection ~ 2100 4800
+Wire Wire Line
+	2100 4900 3400 4900
+Wire Wire Line
+	3400 4900 3400 4150
+Connection ~ 2100 4900
+Wire Wire Line
+	1700 2950 2100 2950
+Wire Wire Line
+	3400 3050 2100 3050
+Connection ~ 2100 3050
+Wire Wire Line
+	6600 4900 5300 4900
+Connection ~ 5300 4900
+$Comp
+L C C9
+U 1 1 576B5498
+P 6600 2150
+AR Path="/57630C50/576B5498" Ref="C9"  Part="1" 
+AR Path="/57687BE9/576B5498" Ref="C14"  Part="1" 
+AR Path="/576883AE/576B5498" Ref="C19"  Part="1" 
+AR Path="/57688B4B/576B5498" Ref="C24"  Part="1" 
+F 0 "C9" H 6625 2250 50  0000 L CNN
+F 1 ".1uF" H 6625 2050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6638 2000 50  0001 C CNN
+F 3 "" H 6600 2150 50  0000 C CNN
+F 4 "490-10777-6-ND" H 6600 2150 60  0001 C CNN "Catalog Number"
+F 5 "Digi-Key" H 6600 2150 60  0001 C CNN "Supplier Name"
+	1    6600 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2000 5300 2600
+Wire Wire Line
+	5300 2900 5300 3100
+Wire Wire Line
+	5300 3050 6600 3050
+Wire Wire Line
+	6600 3050 6600 2300
+Connection ~ 5300 3050
+$EndSCHEMATC

@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name device1)(type Legacy)(uri ${KIPRJMOD}/lib/device.lib)(options "")(descr ""))
+  (lib (name power1)(type Legacy)(uri ${KIPRJMOD}/lib/power.lib)(options "")(descr ""))
+  (lib (name eVOLVER_pwm)(type Legacy)(uri ${KIPRJMOD}/lib/eVOLVER_pwm.lib)(options "")(descr ""))
+  (lib (name conn1)(type Legacy)(uri ${KIPRJMOD}/lib/conn.lib)(options "")(descr ""))
+)
