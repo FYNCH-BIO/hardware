@@ -1,6 +1,7 @@
 (sym_lib_table
-  (lib (name "device1")(type "KiCad")(uri "${KIPRJMOD}/lib/device.kicad_sym")(options "")(descr ""))
-  (lib (name "power1")(type "KiCad")(uri "${KIPRJMOD}/lib/power.kicad_sym")(options "")(descr ""))
-  (lib (name "eVOLVER_pwm")(type "KiCad")(uri "${KIPRJMOD}/lib/eVOLVER_pwm.kicad_sym")(options "")(descr ""))
-  (lib (name "conn1")(type "KiCad")(uri "${KIPRJMOD}/lib/conn.kicad_sym")(options "")(descr ""))
+  (lib (name device1)(type Legacy)(uri ${KIPRJMOD}/lib/device.kicad_sym)(options "")(descr ""))
+  (lib (name power1)(type Legacy)(uri ${KIPRJMOD}/lib/power.kicad_sym)(options "")(descr ""))
+  (lib (name eVOLVER_pwm)(type Legacy)(uri ${KIPRJMOD}/lib/eVOLVER_pwm.kicad_sym)(options "")(descr ""))
+  (lib (name conn1)(type Legacy)(uri ${KIPRJMOD}/lib/conn.kicad_sym)(options "")(descr ""))
+  (lib (name eVolver_pwm-rescue)(type Legacy)(uri ${KIPRJMOD}/eVolver_pwm-rescue.lib)(options "")(descr ""))
 )
