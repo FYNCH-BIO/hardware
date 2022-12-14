@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "conn")(type "Legacy")(uri "${KIPRJMOD}/lib/conn.lib")(options "")(descr ""))
+  (lib (name "power1")(type "Legacy")(uri "${KIPRJMOD}/lib/power.lib")(options "")(descr ""))
+  (lib (name "device")(type "Legacy")(uri "${KIPRJMOD}/lib/device.lib")(options "")(descr ""))
+)
