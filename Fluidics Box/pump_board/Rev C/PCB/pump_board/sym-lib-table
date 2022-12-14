@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "pump_board-rescue")(type "Legacy")(uri "${KIPRJMOD}/pump_board-rescue.lib")(options "")(descr ""))
+  (lib (name "pump_array")(type "Legacy")(uri "${KIPRJMOD}/pump_array.lib")(options "")(descr ""))
+)

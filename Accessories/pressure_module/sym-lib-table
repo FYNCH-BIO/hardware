@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "pressure")(type "Legacy")(uri "${KIPRJMOD}/pressure.lib")(options "")(descr ""))
+  (lib (name "pressure_module-rescue")(type "Legacy")(uri "${KIPRJMOD}/pressure_module-rescue.lib")(options "")(descr ""))
+)
