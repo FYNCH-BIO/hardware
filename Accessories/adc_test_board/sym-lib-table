@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Motherboard-cache")(type "Legacy")(uri "/Users/heinsz/git_repos/hardware/Vial Platform/Motherboard/Motherboard-cache.lib")(options "")(descr ""))
+)
