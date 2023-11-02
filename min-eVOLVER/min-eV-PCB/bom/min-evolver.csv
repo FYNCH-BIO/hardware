@@ -1,0 +1,16 @@
+null,Sourced,Placed,References,Value,Footprint,Quantity
+1,,,"C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14",.1u,C_0603_1608Metric,13
+2,,,"C1, C16, C17, C18, C19",1u,C_0603_1608Metric,5
+3,,,"R1, R2, R7, R8, R9, R10, R11, R12, R13, R14",10k,R_0603_1608Metric,10
+4,,,"R3, R4",1M,R_0603_1608Metric,2
+5,,,"R5, R6",100k,R_0603_1608Metric,2
+6,,,"D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12",D,SBR160S23,12
+7,,,U1,MCP6004,mcp6004-ssop,1
+8,,,U3,AP7361C-33E,SOT-223-3_TabPin2,1
+9,,,U4,L7805CDT,L7805CDT,1
+10,,,"Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12",Q_NMOS_GSD,A03422,12
+11,,,"JP1, JP2",Jumper_3_Open,3pinheader_2_54_mm_pitch,2
+12,,,CON1,BARREL_JACK,2.1mm_DC_Jack,1
+13,,,"P2, P3",CONN_02X08,2x8_conn_10in,2
+14,,,P1,CONN_02X12,24_pin_10in,1
+15,,,P4,CONN_02X08,2x8 Connector,1
