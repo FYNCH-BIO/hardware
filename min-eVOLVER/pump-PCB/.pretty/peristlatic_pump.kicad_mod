@@ -1,0 +1,8 @@
+(module peristlatic_pump (layer F.Cu) (tedit 59E79EB6)
+  (fp_text reference REF** (at 0 7.62) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value peristlatic_pump (at 0 -8.89) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)
